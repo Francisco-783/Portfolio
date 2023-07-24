@@ -1,11 +1,9 @@
-
-import styles from './page.module.css'
-
-export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div>ASDASD
-      </div>
-    </main>
-  )
-}
+export default function () {
+    return (
+      <main >
+        <div>Fullstack Web Developer
+        </div>
+      </main>
+    )
+  }
+  
