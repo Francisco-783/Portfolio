@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Skills = () => {
     return (
-        <div className={style.container}>
+        <section className={style.skills}>
             <div>Front
                 <Image src="/assets/Tech/front/CSS.png" width={70} height={95} alt="github logo" />
                 <Image src="/assets/Tech/front/Figma.png" width={70} height={95} alt="github logo" />
@@ -27,7 +27,7 @@ const Skills = () => {
                 <Image src="/assets/Tech/JavaScript-logo.png" width={70} height={95} alt="github logo" />
                 <Image src="/assets/Tech/ts-logo-512.png" width={70} height={95} alt="github logo" />
             </div>
-        </div>
+        </section>
     )
 }
 export default Skills;

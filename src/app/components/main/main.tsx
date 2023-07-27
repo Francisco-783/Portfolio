@@ -10,7 +10,7 @@ const Main: React.FC = () => {
 
 
   return (
-    <div className={style.container}>
+    <section className={style.container}>
       <h1>FullStack Web Developer</h1>
       <label>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa totam deleniti deserunt, repellendus saepe ab qui, labore dignissimos unde omnis alias quam maxime eligendi pariatur eaque rerum dolores modi iure?</label>
       <Link href="https://www.linkedin.com/in/francisco-insaurralde-539109220/">
@@ -23,7 +23,7 @@ const Main: React.FC = () => {
       <label>MI CV</label>
       </Link>
       <Image src="/assets/Foto-blanco.png" width={400} height={400} alt="developer's photo" />
-    </div>
+    </section>
   );
 };
 
