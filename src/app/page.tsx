@@ -5,12 +5,13 @@ import Main from "./components/main/main";
 import NavBar from "./components/navbar/navbar";
 import Projects from "./components/projects/projects";
 import Skills from "./components/skills/skills";
+import style from "./page.module.scss"
 
 export default function () {
     return (
       <main >
-        <div>
-          <NavBar />
+        <NavBar />
+        <div className={style.container}>
           <Main />
           <AboutMe />
           <Skills />
