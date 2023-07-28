@@ -5,28 +5,25 @@ import Image from 'next/image';
 const Skills = () => {
     return (
         <section className={style.skills}>
-            <div>Front
-                <Image src="/assets/Tech/front/CSS.png" width={70} height={95} alt="github logo" />
-                <Image src="/assets/Tech/front/Figma.png" width={70} height={95} alt="github logo" />
-                <Image src="/assets/Tech/front/HTML.png" width={70} height={95} alt="github logo" />
-                <Image src="/assets/Tech/front/React.png" width={70} height={95} alt="github logo" />
-                <Image src="/assets/Tech/front/Redux.png" width={70} height={95} alt="github logo" />
-                <Image src="/assets/Tech/front/Sass.png" width={70} height={95} alt="github logo" />
+            <div className={style.skillsContainer}>
+                <Image src="/assets/Tech/front/reactLogo.png" width={50} height={50} alt="react logo" className={style.skillPhoto}/>
+                <Image src="/assets/Tech/front/reduxLogo.png" width={50} height={50} alt="redux logo" className={style.skillPhoto}/>
+                <Image src="/assets/Tech/front/sassLogo.png" width={60} height={50} alt="sass logo" className={style.skillPhoto}/>
             </div>
-            <div>Back
-                <Image src="/assets/Tech/back/Express.png" width={70} height={95} alt="github logo" />
-                <Image src="/assets/Tech/back/Firebase.png" width={70} height={95} alt="github logo" />
-                <Image src="/assets/Tech/back/mongoDB.png" width={70} height={95} alt="github logo" />
-                <Image src="/assets/Tech/back/NodeJS.png" width={70} height={95} alt="github logo" />
-                <Image src="/assets/Tech/back/postgreSQL.png" width={70} height={95} alt="github logo" />
-                <Image src="/assets/Tech/back/Sequelize.png" width={70} height={95} alt="github logo" />
+            <div className={style.skillsContainer}>
+                <Image src="/assets/Tech/back/mongodbLogo.png" width={30} height={50} alt="mongodb logo"  className={style.skillPhoto}/>
+                <Image src="/assets/Tech/back/expressJSLogo.png" width={50} height={50} alt="expressJS logo" className={style.skillPhoto}/>
+                <Image src="/assets/Tech/back/nodeJSLogo.png" width={45} height={50} alt="nodeJS logo" className={style.skillPhoto}/>
+                <Image src="/assets/Tech/back/postgreeSQLLogo.png" width={50} height={50} alt="postgreeSQL logo" className={style.skillPhoto}/>
+                <Image src="/assets/Tech/back/sequelizeLogo.png" width={50} height={50} alt="sequelize logo" className={style.skillPhoto}/>
             </div>
-            <div>Programming Languages
-                <Image src="/assets/githublogo.png" width={70} height={95} alt="github logo" />
-                <Image src="/assets/Tech/Git.png" width={70} height={95} alt="github logo" />
-                <Image src="/assets/Tech/JavaScript-logo.png" width={70} height={95} alt="github logo" />
-                <Image src="/assets/Tech/ts-logo-512.png" width={70} height={95} alt="github logo" />
-            </div>
+            <div className={style.skillsContainer}>
+            <Image src="/assets/Tech/gitlog.png" width={50} height={50} alt="git logo" className={style.skillPhoto}/>
+                <Image src="/assets/Tech/js.png" width={50} height={50} alt="js logo" className={style.skillPhoto}/>
+                <Image src="/assets/Tech/typescriptLog.png" width={50} height={50} alt="typescript logo" className={style.skillPhoto}/>
+
+            </div >
+            
         </section>
     )
 }

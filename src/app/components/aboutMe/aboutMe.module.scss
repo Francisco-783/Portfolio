@@ -1,3 +1,29 @@
-.container{
-    background-color: blue;
-}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    height: 45vh;
+    .aboutContainer {
+      margin: auto;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .aboutTitle {
+        font-weight: 600;
+        font-size: 3.3rem;
+        text-decoration: underline;
+        text-decoration-color: blue;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 4px
+      }
+  
+      .aboutText {
+        font-size: 1.3rem;
+        width: 80%;
+      }
+    }
+  }

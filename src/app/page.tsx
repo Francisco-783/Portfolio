@@ -4,7 +4,7 @@ import Footer from "./components/footer/footer";
 import Main from "./components/main/main";
 import NavBar from "./components/navbar/navbar";
 import Projects from "./components/projects/projects";
-import Skills from "./components/skills/skills";
+
 import style from "./page.module.scss"
 
 export default function () {
@@ -14,7 +14,6 @@ export default function () {
         <div >
           <Main />
           <AboutMe />
-          <Skills />
           <Projects />
           <ContactMe />
           <Footer />

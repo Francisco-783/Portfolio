@@ -13,7 +13,7 @@ const Main: React.FC = () => {
     <section className={style.main}>
       <div>
         <p className={style.subtitle}>Hola, soy Francisco Insaurralde.</p>
-        <h1>Full Stack Web </h1>
+        <h1>Full Stack <span className={style.highlightText}>Web</span></h1>
         <h1>Developer</h1>
         <Link href="https://www.linkedin.com/in/francisco-insaurralde-539109220/">
           <Image src="/assets/s.png" width={40} height={40} alt="linkedin logo" />
