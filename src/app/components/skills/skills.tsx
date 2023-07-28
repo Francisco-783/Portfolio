@@ -18,10 +18,9 @@ const Skills = () => {
                 <Image src="/assets/Tech/back/sequelizeLogo.png" width={50} height={50} alt="sequelize logo" className={style.skillPhoto}/>
             </div>
             <div className={style.skillsContainer}>
-            <Image src="/assets/Tech/gitlog.png" width={50} height={50} alt="git logo" className={style.skillPhoto}/>
+                <Image src="/assets/Tech/gitlog.png" width={50} height={50} alt="git logo" className={style.skillPhoto}/>
                 <Image src="/assets/Tech/js.png" width={50} height={50} alt="js logo" className={style.skillPhoto}/>
                 <Image src="/assets/Tech/typescriptLog.png" width={50} height={50} alt="typescript logo" className={style.skillPhoto}/>
-
             </div >
             
         </section>
