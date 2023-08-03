@@ -4,10 +4,11 @@
     flex-direction: column;
     background-color: black;
     color: white;
-    height: 45vh;
+    height: 40vh;
+    
     .aboutContainer {
       margin: auto;
-      width: 80%;
+      max-width: 1030px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -22,7 +23,7 @@
       }
   
       .aboutText {
-        font-size: 1.3rem;
+        font-size: 1rem;
         width: 80%;
       }
     }

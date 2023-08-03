@@ -1,65 +1,100 @@
-$primaryColor: #007bff;
-$secondaryColor: #6c757d;
-$cardBackgroundColor: #f8f9fa;
-$cardPadding: 20px;
 
-/* Style for the main section */
+
 .allProjects {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 80%;
+  flex-direction: column;
+  align-items: center;
   margin: auto;
+  max-width: 1020px;
 h2{
-  font-size: 2.5rem;
+font-size: 2.5rem;
 margin: 20px auto ;
 color: blue;
-
+width: 100%;
+text-align: center;
+margin-top: 30px;
 }
-}
-
 .projectContainer {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-}
-
-/* Style for the panel containing project details */
-.panel {
-  margin: auto;
-  flex: 1;
-  height: 100%;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  margin: 20px;
+  height: 20rem;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
-  /* Add more styles here as needed for the panel */
-
-  h3 {
-    color: $primaryColor;
-    margin-bottom: 10px;
-    
-  }
-
-  p {
-    color: $secondaryColor;
-    margin-bottom: 20px;
-  }
-
-  a {
-    color: $primaryColor;
-    margin-right: 10px;
-
-    &:hover {
-      text-decoration: underline;
+  .panel {
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    ul {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      list-style: none;
+      width: 50%;
+      margin-left: auto;
+          margin-right: auto;
+  
+    li {
+      background-color: #f2f2f2;
+      padding: 5px 5px;
+      border-radius: 5px;
+      font-size: 14px;
+      color: #333;
+    }}
+    p{
+      height: 80%;
+    }
+    .buttons {
+      margin-top: auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 10px 0px;
+      
+      .butt {
+        display: flex;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        border-radius: 20px;
+        width: 22%;
+        margin: 5px;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        transition: 0.3s;
+        p{
+          font-size: 10px;
+          font-weight: 900;
+          margin-left: 1px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .bImage{
+          align-self: center;
+          margin-left: 2px;
+        }
+        &:hover {
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+          transition: 0.3s; /* Transition duration set to 0.3 seconds */
+        }
+      }
     }
   }
+  
+  
+  .slider {
+    border-radius: 10px;  
+    margin: 10px 10px;
+  width: 65%;
+  right: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
 }
 
-/* Style for the slider container */
-.slider {
-  flex: 1;
-  margin-left: 20px;
-  border-radius: 50px;
-
-  /* Add more styles here as needed for the slider container */
 }
+
+

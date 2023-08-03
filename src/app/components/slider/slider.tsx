@@ -39,7 +39,7 @@ const Slider: React.FC<SliderProps> = ({ photos }) => {
       <button onClick={previous}>{"<"}</button>
       <Image
         src={currentImage.url}
-        width={1360}
+        width={1024}
         height={768}
         alt={currentImage.title}
         className={`${style.image} ${isTransitioning ? style["image-transition"] : ""}`}

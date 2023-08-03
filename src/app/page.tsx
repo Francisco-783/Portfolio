@@ -9,9 +9,9 @@ import style from "./page.module.scss"
 
 export default function () {
     return (
-      <main className={style.container}>
+      <main >
         <NavBar />
-        <div >
+        <div className={style.container}>
           <Main />
           <AboutMe />
           <Projects />

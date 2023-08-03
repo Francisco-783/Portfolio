@@ -6,7 +6,7 @@ const Skills = () => {
     return (
         <section className={style.skills}>
             <div className={style.skillsContainer}>
-                <Image src="/assets/Tech/front/reactLogo.png" width={50} height={50} alt="react logo" className={style.skillPhoto}/>
+                <Image src="/assets/Tech/front/reactLogo.png" width={55} height={50} alt="react logo" className={style.skillPhoto}/>
                 <Image src="/assets/Tech/front/reduxLogo.png" width={50} height={50} alt="redux logo" className={style.skillPhoto}/>
                 <Image src="/assets/Tech/front/sassLogo.png" width={60} height={50} alt="sass logo" className={style.skillPhoto}/>
             </div>
@@ -16,6 +16,7 @@ const Skills = () => {
                 <Image src="/assets/Tech/back/nodeJSLogo.png" width={45} height={50} alt="nodeJS logo" className={style.skillPhoto}/>
                 <Image src="/assets/Tech/back/postgreeSQLLogo.png" width={50} height={50} alt="postgreeSQL logo" className={style.skillPhoto}/>
                 <Image src="/assets/Tech/back/sequelizeLogo.png" width={50} height={50} alt="sequelize logo" className={style.skillPhoto}/>
+                <Image src="/assets/Tech/back/NestJS.png" width={50} height={50} alt="sequelize logo" className={style.skillPhoto}/>
             </div>
             <div className={style.skillsContainer}>
                 <Image src="/assets/Tech/gitlog.png" width={50} height={50} alt="git logo" className={style.skillPhoto}/>
