@@ -1,3 +1,14 @@
 .container{
-    background-color: gray;
+    background-color: #2d2e32;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    p{  
+        text-align: start;
+        margin: auto;
+        width: 980px;
+        color: white;
+        font-weight: 600;
+    }
 }

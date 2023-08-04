@@ -1,3 +1,68 @@
-.container{
-    background-color: green;
+.contacContainer{ //container 
+  max-width: 800px;
+  margin: 20px auto ;
+  height: 15vh;
+
+  .contacData {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center; 
+    .contactMail {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      h4 {
+        color: black;
+        font-weight: 800;
+        margin: 0px;
+        margin-bottom: 3px;
+        text-align: start;
+      }
+      p{
+        margin: 0px;
+      }
+      label{
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        padding: 10px;
+        border-radius: 100%;
+      .icon {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        color: blue;
+        width: 30px;
+        height: 30px;
+      }}
+      div{
+        margin-left: 10px;
+      }
+    }
+    .holderIcon{
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        padding: 10px;
+        border-radius: 100%;
+    .icon {
+      display: flex;
+        align-items: center;
+      margin: auto;
+      text-decoration: none;
+      color: black;
+      width: 40px;
+      height: 40px;
+      transition: 0.3s;
+    }}
+    .icon:hover {
+      transition: 0.3s;
+      color: blue;
+
+    }
+    .holderIcon:first-child{
+      margin-right: 50px;
+    }
+  } 
 }

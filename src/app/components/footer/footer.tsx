@@ -6,9 +6,8 @@ import style from "./footer.module.scss"
 const Footer = () => {
     return (
         <footer className={style.container}>
-           Copyright © 2023. All rights are reserved
-           <Image src="/assets/linkedinLogo.png" width={100} height={100} alt="PLACEHOLDER PHOTO" />
-           <Image src="/assets/githublogo.png" width={100} height={100} alt="PLACEHOLDER PHOTO" />
+        
+        <p> Copyright © 2023. All rights are reserved</p>  
         </footer>
     )
 }

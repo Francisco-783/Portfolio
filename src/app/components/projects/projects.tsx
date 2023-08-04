@@ -22,7 +22,7 @@ const Projects = () => {
             <div className={style.panel}>
                 <h3>Bidwiz</h3>
                 <p>Bidwiz es una aplicacion web para contratar y ofrecer servicios de profesor particular<br/> Cuenta con pasarela de pago, calendario, login, entre otros</p>
-                <ul><li>React</li><li>Nest.JS</li><li>MongoDB</li></ul>
+                <ul><li>Nest.JS</li><li>React</li><li>MongoDB</li></ul>
                 <div className={style.buttons}>
                     <Link href="https://github.com/Mr-Hache/bidWiz-Frontend" className={style.butt}>
                         <Image src="/assets/githublogo.png" width={20} height={20} alt="github logo" className={style.bImage}/>
