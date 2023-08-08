@@ -2,9 +2,10 @@
 import style from "./skills.module.scss"
 import Image from 'next/image';
 
+
 const Skills = () => {
     return (
-        <section className={style.skills}>
+        <section className={style.skills} id="skills">
             <div className={style.skillsContainer}>
                 <Image src="/assets/Tech/front/reactLogo.png" width={55} height={50} alt="react logo" className={style.skillPhoto}/>
                 <Image src="/assets/Tech/front/reduxLogo.png" width={50} height={50} alt="redux logo" className={style.skillPhoto}/>

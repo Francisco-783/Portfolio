@@ -12,7 +12,7 @@ export default function () {
       <main >
         <NavBar />
         <div className={style.container}>
-          <Main />
+          <Main/>
           <AboutMe />
           <Projects />
           <ContactMe />

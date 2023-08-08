@@ -12,3 +12,11 @@
         font-weight: 600;
     }
 }
+
+@media (max-width: 1020px) {
+    .container{
+    p{
+        margin-left: 40px;
+    }
+}
+}

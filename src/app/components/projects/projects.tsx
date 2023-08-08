@@ -3,6 +3,7 @@ import style from "./projects.module.scss"
 import Slider from '../slider/slider';
 import Image from 'next/image';
 
+
 const Projects = () => {
         const bidWizSlider = [
             {url: "/assets/bidWiz/bidwiz1.png", title: 'bidwizPhoto1'},
@@ -19,6 +20,9 @@ const Projects = () => {
             <h2>Proyectos</h2>
             
             <div className={style.projectContainer}>
+            <div className={style.slider}>
+                <Slider  photos={bidWizSlider}/>
+            </div>
             <div className={style.panel}>
                 <h3>Bidwiz</h3>
                 <p>Bidwiz es una aplicacion web para contratar y ofrecer servicios de profesor particular<br/> Cuenta con pasarela de pago, calendario, login, entre otros</p>
@@ -32,21 +36,19 @@ const Projects = () => {
                         <Image src="/assets/githublogo.png" width={20} height={20} alt="github logo" className={style.bImage}/>
                         <p>Code-Back</p>
                     </Link >
-                    <Link href="https://www.youtube.com/watch?v=hswl3Y5fdx4" className={style.butt}>
+                    <Link href="https://www.youtube.com/watch?v=2APO65Y9P08" className={style.butt}>
                         <Image src="/assets/video.png" width={20} height={20} alt="video" className={style.bImage}/>
                         <p>Demo</p>
                     </Link>
-                    <Link href="https://www.youtube.com/watch?v=hswl3Y5fdx4" className={style.butt}>
+                    <Link href="https://bid-wiz-frontend.vercel.app/" className={style.butt}>
                         <Image src="/assets/Iconweb.png" width={20} height={20} alt="deploy" className={style.bImage}/>
                         <p>Web</p>
                     </Link>
                 </div>
             </div>
-            <div className={style.slider}>
-                <Slider  photos={bidWizSlider}/>
-            </div>
+            
            </div>
-           <div className={style.projectContainer}>
+           <div className={`${style.projectContainer} ${style.secondProjectContainer}`}>
            <div className={style.slider}>
             <Slider  photos={dogsSlider}/>
             </div>

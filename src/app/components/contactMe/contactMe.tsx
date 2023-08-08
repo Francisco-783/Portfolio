@@ -8,7 +8,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const ContactMe = () => {
     return (
-        <section className={style.contacContainer}>
+        <section className={style.contacContainer} id="contact">
 
         <div className={style.contacData} >
             <Link href="https://github.com/Francisco-783" className={style.holderIcon}>

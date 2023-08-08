@@ -42,3 +42,24 @@
 .photo {
   border-radius: 100%;
 }
+
+@media (max-width: 1020px) {
+  .main {
+    flex-direction: column-reverse; 
+
+  
+    label {
+      display: inline-block;
+      margin: 5px;
+      cursor: pointer;
+      color: #333;
+      font-size: 1rem;
+    }
+  }
+  
+  .photo {
+    border-radius: 100%;
+    position:absolute;
+    opacity: 0;
+  }
+}

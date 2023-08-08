@@ -1,5 +1,6 @@
 
 .navbar {
+
     margin:0;
     background-color: #F9F9F9;
     color: black;
@@ -16,6 +17,10 @@
       font-size: 1.3rem; // Cambia esto al tamaño de fuente que desees para el título
       margin:  20px 20px;
       font-weight:800;
+      a{
+        text-decoration: none;
+        color: black;
+      }
     }
   
     ul {
@@ -28,6 +33,10 @@
         margin-left: 1.5rem; // Espacio entre los elementos del navbar
         cursor: pointer;
         font-weight:600;
+        a{
+          text-decoration: none;
+          color: black;
+        }
         &:first-child {
           margin-left: 0; // Eliminar el espacio izquierdo para el primer elemento
         }

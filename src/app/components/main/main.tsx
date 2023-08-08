@@ -10,7 +10,7 @@ const Main: React.FC = () => {
 
 
   return (
-    <section className={style.main}>
+    <section className={style.main} id='start'>
       <div>
         <p className={style.subtitle}>Hola, soy Francisco Insaurralde.</p>
         <h1>Full Stack <span className={style.highlightText}>Web</span></h1>

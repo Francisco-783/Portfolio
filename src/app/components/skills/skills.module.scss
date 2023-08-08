@@ -12,3 +12,24 @@
   // Estilo para el último elemento con clase .skillsContainer
 
 } 
+
+
+@media (max-width: 1020px) {
+  
+  .skills {
+    .skillsContainer {
+      margin: 0px;
+      .skillPhoto{
+        margin: 0px 9px;
+      }
+    }
+  } 
+}
+
+@media (max-width: 539px) {
+  .skillPhoto{
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+  }
+}
