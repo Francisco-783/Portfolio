@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const NavBar = () => {
-    const [navbar, setNavbar] = useState(false);
+    const [navbar, setNavbar] = useState(true);
     
     const SwichMenu = () =>{
         setNavbar(!navbar)
