@@ -21,8 +21,8 @@ const Main: React.FC = () => {
         <Link href="https://github.com/Francisco-783">
           <Image src="/assets/githublogo.png" width={40} height={40} alt="github logo" />
         </Link>
-        <Link href="https://github.com/Francisco-783">
-          <Image src="/assets/pdf.png" width={40} height={40} alt="github logo" />
+        <Link href="https://docs.google.com/document/d/1ViMk0WmajaRF0nIQ2Y_ySL-GSsQLbKA6JKXVkVlstEw/edit">
+          <Image src="/assets/pdf.png" width={40} height={40} alt="CV logo" />
         </Link>
       </div>
       <Image src="/assets/main.gif" width={450} height={400} alt="developer's photo" className={style.photo}/>
