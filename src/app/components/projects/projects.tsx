@@ -28,19 +28,19 @@ const Projects = () => {
                 <p>Bidwiz es una aplicacion web para contratar y ofrecer servicios de profesor particular<br/> Cuenta con pasarela de pago, calendario, login, entre otros</p>
                 <ul><li>Nest.JS</li><li>React</li><li>MongoDB</li></ul>
                 <div className={style.buttons}>
-                    <Link href="https://github.com/Mr-Hache/bidWiz-Frontend" className={style.butt}>
+                    <Link href="https://github.com/Mr-Hache/bidWiz-Frontend" className={style.butt} target="_blank">
                         <Image src="/assets/githublogo.png" width={20} height={20} alt="github logo" className={style.bImage}/>
                         <p>Code-Front</p>
                     </Link >
-                    <Link href="https://github.com/Mr-Hache/bidWiz-Backend" className={style.butt}>
+                    <Link href="https://github.com/Mr-Hache/bidWiz-Backend" className={style.butt} target="_blank">
                         <Image src="/assets/githublogo.png" width={20} height={20} alt="github logo" className={style.bImage}/>
                         <p>Code-Back</p>
                     </Link >
-                    <Link href="https://www.youtube.com/watch?v=2APO65Y9P08" className={style.butt}>
+                    <Link href="https://www.youtube.com/watch?v=2APO65Y9P08" className={style.butt} target="_blank">
                         <Image src="/assets/video.png" width={20} height={20} alt="video" className={style.bImage}/>
                         <p>Demo</p>
                     </Link>
-                    <Link href="https://bid-wiz-frontend.vercel.app/" className={style.butt}>
+                    <Link href="https://bid-wiz-frontend.vercel.app/" className={style.butt} target="_blank">
                         <Image src="/assets/Iconweb.png" width={20} height={20} alt="deploy" className={style.bImage}/>
                         <p>Web</p>
                     </Link>
@@ -57,11 +57,11 @@ const Projects = () => {
                 <p>Henry's Dogs es un catalogo sobre razas de perro, la cual puede ser actualizada agregando o editando otras ya existentes</p>
                 <ul><li>React</li><li>PostgreSQL</li></ul>
                 <div className={style.buttons}>
-                    <Link href="https://github.com/Francisco-783/PI-Dogs" className={style.butt}>
+                    <Link href="https://github.com/Francisco-783/PI-Dogs" className={style.butt} target="_blank">
                         <Image src="/assets/githublogo.png" width={20} height={20} alt="github logo" className={style.bImage}/>
                         <p>Code</p>
                     </Link >
-                    <Link href="https://www.youtube.com/watch?v=hswl3Y5fdx4" className={style.butt}>
+                    <Link href="https://www.youtube.com/watch?v=hswl3Y5fdx4" className={style.butt} target="_blank">
                         <Image src="/assets/video.png" width={20} height={20} alt="video" className={style.bImage}/>
                         <p>Demo</p>
                     </Link>

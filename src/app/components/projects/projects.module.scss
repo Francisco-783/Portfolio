@@ -141,3 +141,14 @@ text-align: center;
 }
 }
   }
+  @media (max-width: 450px) {
+    .allProjects {
+      .projectContainer {
+        width: 100%;
+        
+        .slider {
+          width: 100%;
+        }
+      }
+    }
+  }

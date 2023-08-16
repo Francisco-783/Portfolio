@@ -1,5 +1,5 @@
 //aca coloco todos mis datos de contacto
-import Image from "next/image";
+
 import style from "./contactMe.module.scss"
 import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -11,10 +11,10 @@ const ContactMe = () => {
         <section className={style.contacContainer} id="contact">
 
         <div className={style.contacData} >
-            <Link href="https://github.com/Francisco-783" className={style.holderIcon}>
+            <Link href="https://github.com/Francisco-783" className={style.holderIcon} target="_blank">
                 <FontAwesomeIcon icon={faGithub} className={style.icon}/>
             </Link>
-            <Link href="https://www.linkedin.com/in/francisco-insaurralde-539109220/" className={style.holderIcon} >
+            <Link href="https://www.linkedin.com/in/francisco-insaurralde-539109220/" className={style.holderIcon} target="_blank">
                 <FontAwesomeIcon icon={faLinkedin} className={style.icon}/>
             </Link>
                 <div className={style.contactMail}>

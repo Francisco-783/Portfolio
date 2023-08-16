@@ -33,18 +33,17 @@
   @media (max-width: 1020px) {
     .aboutMe {
       height: 50vh;
-      
       .aboutContainer {
-        
-    
-        .aboutTitle {
-          
-        }
-    
         .aboutText {
           width: 90%;
         }
       }
     }
   
+  }
+
+  @media (max-width: 440px) {
+    .aboutMe {
+      height: auto;
+    }
   }

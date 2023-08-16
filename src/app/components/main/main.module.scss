@@ -61,5 +61,18 @@
     border-radius: 100%;
     position:absolute;
     opacity: 0;
+    width: 0px;
+    height: 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  .main {
+    width: 100%;
+    padding: 0px;
+
+    div{
+      padding-left: 7px;
+    }
   }
 }

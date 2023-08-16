@@ -29,9 +29,9 @@ const NavBar = () => {
                 <a href='#skills'>Proyectos</a>
             </li>
             <li onClick={SwichMenu}>
-                <a href='#contact'>Cotacto</a>
+                <a href='#contact'>Contacto</a>
             </li>
-          <li onClick={SwichMenu}><a href='https://docs.google.com/document/d/1ViMk0WmajaRF0nIQ2Y_ySL-GSsQLbKA6JKXVkVlstEw/' className={style.cvLink}>Curriculum Vitae</a></li>
+          <li onClick={SwichMenu}><a target="_blank" href='https://docs.google.com/document/d/1ViMk0WmajaRF0nIQ2Y_ySL-GSsQLbKA6JKXVkVlstEw/' className={style.cvLink}>Curriculum Vitae</a></li>
          </ul>
          
       </div>
