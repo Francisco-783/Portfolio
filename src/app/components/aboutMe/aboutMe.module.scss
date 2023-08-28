@@ -4,7 +4,13 @@
     flex-direction: column;
     background-color: black;
     color: white;
-    height: 40vh;
+    height: auto;
+
+    .skillsContainer{
+      margin: auto;
+      margin-bottom: 10px;
+
+    }
     
     .aboutContainer {
       margin: auto;
@@ -32,7 +38,7 @@
 
   @media (max-width: 1020px) {
     .aboutMe {
-      height: 50vh;
+      
       .aboutContainer {
         .aboutText {
           width: 90%;
