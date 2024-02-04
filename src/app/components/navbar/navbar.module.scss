@@ -48,10 +48,12 @@
 
   @media (max-width: 950px) {
     .navbar {
-      height: 5vh;
-
+      height: 8.5vh;
+      padding:0px;
       h2{
         margin: 0px;
+        padding: 1rem;
+
       }
       .closed{
         right: 1000px;
@@ -75,25 +77,17 @@
         top: 0;
         right: 0;
         transition: 0.2s;
-        padding: 0px;
         margin:auto;
         margin-top: 8.5vh;
         li {
-          display: flex; // Add this to make the <li> a flex container
-          justify-content: center; // Horizontally center the content
-          align-items: center;
-          margin: auto;
-          height: auto;
+          display: flex;
           background-color: rgba(45, 46, 50, 0.99);
-          
           a {
-            width: 110vw;
-            text-align: center;
+            width: 100vw;
             display: flex;
-            align-items: center; // Vertically center content
-            justify-content: center; // Horizontally center content
+            align-items: center;
+            justify-content: center;
             height: 10vh;
-            margin: auto;
             font-size: 20px;
             font-weight: 700;
             color: white;
