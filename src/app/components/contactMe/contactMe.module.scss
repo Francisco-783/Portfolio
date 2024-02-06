@@ -1,4 +1,4 @@
-.contacContainer{ //container 
+.contacContainer{ 
   max-width: 800px;
   margin: 20px auto ;
   height: 15vh;
@@ -68,11 +68,11 @@
 }
 
 @media (max-width: 1020px) {
-  .contacContainer{ //container 
+  .contacContainer{ 
     .contacData {
       height: 100%;
       display: grid;
-      grid-template-rows: 1fr 1fr; /* Two rows with equal height */
+      grid-template-rows: 1fr 1fr; 
       grid-template-columns: 1fr 1fr;
       .contactMail {
         grid-column: span 2;

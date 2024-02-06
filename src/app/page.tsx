@@ -1,3 +1,4 @@
+import Experience from "./components/Experience/experience";
 import AboutMe from "./components/aboutMe/aboutMe";
 import ContactMe from "./components/contactMe/contactMe";
 import Footer from "./components/footer/footer";
@@ -14,6 +15,7 @@ export default function () {
         <div className={style.container}>
           <Main/>
           <AboutMe />
+          <Experience/>
           <Projects />
           <ContactMe />
           <Footer />
