@@ -1,4 +1,4 @@
-// descripcion mas estendida sobre vos
+
 import style from "./aboutMe.module.scss"
 import Skills from "../skills/skills";
 

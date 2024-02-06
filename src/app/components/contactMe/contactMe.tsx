@@ -1,4 +1,3 @@
-//aca coloco todos mis datos de contacto
 
 import style from "./contactMe.module.scss"
 import Link from "next/link";

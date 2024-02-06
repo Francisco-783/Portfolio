@@ -1,4 +1,4 @@
-//aca van las tecnologias usadas
+
 import style from "./skills.module.scss"
 import Image from 'next/image';
 
