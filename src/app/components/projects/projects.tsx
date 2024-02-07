@@ -32,15 +32,15 @@ const Projects = () => {
                 <ul><li>Nest.JS</li><li>React</li><li>MongoDB</li></ul>
                 <div className={style.buttons}>
                     <Link href="https://github.com/Mr-Hache/bidWiz-Frontend" className={style.butt} target="_blank">
-                        <FontAwesomeIcon icon={faGithub}/>
+                        <FontAwesomeIcon icon={faGithub} className={style.icon} />
                         <p> Code-Front</p>
                     </Link >
                     <Link href="https://github.com/Mr-Hache/bidWiz-Backend" className={style.butt} target="_blank">
-                        <FontAwesomeIcon icon={faGithub}/>
+                        <FontAwesomeIcon icon={faGithub} className={style.icon} />
                         <p>Code-Back</p>
                     </Link >
                     <Link href="https://www.youtube.com/watch?v=2APO65Y9P08" className={style.butt} target="_blank">
-                            <FontAwesomeIcon icon={faPlay} className={style.icon} />
+                            <FontAwesomeIcon icon={faPlay} className={`${style.icon} ${style.playIcon}`} />
                         <p>Demo</p>
                     </Link>
                     <Link href="https://bid-wiz-frontend.vercel.app/" className={style.butt} target="_blank">
@@ -61,11 +61,11 @@ const Projects = () => {
                 <ul><li>React</li><li>PostgreSQL</li></ul>
                 <div className={style.buttons}>
                     <Link href="https://github.com/Francisco-783/PI-Dogs" className={style.butt} target="_blank">
-                        <FontAwesomeIcon icon={faGithub}/>
+                        <FontAwesomeIcon icon={faGithub} className={style.icon} />
                         <p>Code</p>
                     </Link >
                     <Link href="https://www.youtube.com/watch?v=hswl3Y5fdx4" className={style.butt} target="_blank">
-                        <FontAwesomeIcon icon={faPlay} className={style.icon} />
+                        <FontAwesomeIcon icon={faPlay} className={`${style.icon} ${style.playIcon}`} />
                         <p>Demo</p>
                     </Link>
             </div>
