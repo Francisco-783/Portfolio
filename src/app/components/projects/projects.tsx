@@ -2,6 +2,9 @@ import Link from 'next/link';
 import style from "./projects.module.scss"
 import Slider from '../slider/slider';
 import Image from 'next/image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faPlay, faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 
 const Projects = () => {
@@ -29,19 +32,19 @@ const Projects = () => {
                 <ul><li>Nest.JS</li><li>React</li><li>MongoDB</li></ul>
                 <div className={style.buttons}>
                     <Link href="https://github.com/Mr-Hache/bidWiz-Frontend" className={style.butt} target="_blank">
-                        <Image src="/assets/githublogo.png" width={20} height={20} alt="github logo" className={style.bImage}/>
-                        <p>Code-Front</p>
+                        <FontAwesomeIcon icon={faGithub}/>
+                        <p> Code-Front</p>
                     </Link >
                     <Link href="https://github.com/Mr-Hache/bidWiz-Backend" className={style.butt} target="_blank">
-                        <Image src="/assets/githublogo.png" width={20} height={20} alt="github logo" className={style.bImage}/>
+                        <FontAwesomeIcon icon={faGithub}/>
                         <p>Code-Back</p>
                     </Link >
                     <Link href="https://www.youtube.com/watch?v=2APO65Y9P08" className={style.butt} target="_blank">
-                        <Image src="/assets/video.png" width={20} height={20} alt="video" className={style.bImage}/>
+                            <FontAwesomeIcon icon={faPlay} className={style.icon} />
                         <p>Demo</p>
                     </Link>
                     <Link href="https://bid-wiz-frontend.vercel.app/" className={style.butt} target="_blank">
-                        <Image src="/assets/Iconweb.png" width={20} height={20} alt="deploy" className={style.bImage}/>
+                            <FontAwesomeIcon icon={faGlobe} className={style.icon} />
                         <p>Web</p>
                     </Link>
                 </div>
@@ -58,11 +61,11 @@ const Projects = () => {
                 <ul><li>React</li><li>PostgreSQL</li></ul>
                 <div className={style.buttons}>
                     <Link href="https://github.com/Francisco-783/PI-Dogs" className={style.butt} target="_blank">
-                        <Image src="/assets/githublogo.png" width={20} height={20} alt="github logo" className={style.bImage}/>
+                        <FontAwesomeIcon icon={faGithub}/>
                         <p>Code</p>
                     </Link >
                     <Link href="https://www.youtube.com/watch?v=hswl3Y5fdx4" className={style.butt} target="_blank">
-                        <Image src="/assets/video.png" width={20} height={20} alt="video" className={style.bImage}/>
+                        <FontAwesomeIcon icon={faPlay} className={style.icon} />
                         <p>Demo</p>
                     </Link>
             </div>
