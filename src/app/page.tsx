@@ -15,7 +15,7 @@ export default function () {
         <div className={style.container}>
           <Main/>
           <AboutMe />
-          {/* <Experience/> */}
+          <Experience/>
           <Projects />
           <ContactMe />
           <Footer />

@@ -26,7 +26,7 @@ const NavBar = () => {
                 <a href='#about'>Sobre Mi</a>
             </li>   
             <li onClick={SwichMenu}>
-                <a href='#skills'>Proyectos</a>
+                <a href='#skills'>Experiencia</a>
             </li>
             <li onClick={SwichMenu}>
                 <a href='#contact'>Contacto</a>
