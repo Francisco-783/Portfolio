@@ -7,24 +7,16 @@
     p{  
         text-align: start;
         margin: auto;
-        width: 980px;
         color: white;
         font-weight: 600;
     }
 }
 
-@media (max-width: 1020px) {
-    .container{
-    p{
-        margin-left: 40px;
-    }
-}
-}
 
 @media (max-width: 450px) {
     .container{
         p{
-            margin-left: 10px;
+            
             font-size: 13px;
         }
     }

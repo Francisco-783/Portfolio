@@ -20,9 +20,14 @@ text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
   .panel {
-    
+    h3{
+      text-align: center;
+    }
+    p{
+      padding: 5px 20px;
+    }
     height: 100%;
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -51,13 +56,13 @@ text-align: center;
       display: flex;
       justify-content: center;
       margin: 10px 0px;
-      
+      gap: 10px;
       .butt {
         display: flex;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
         border-radius: 20px;
         width: 22%;
-        margin: 5px;
+
         text-decoration: none;
         color: black;
         text-align: center;
@@ -67,6 +72,7 @@ text-align: center;
           font-weight: 900;
           margin-left: auto;
           margin-right: auto;
+          padding: 0px;
         }
         .icon {
           align-self: center;
@@ -93,7 +99,7 @@ text-align: center;
   
   .slider {
     border-radius: 10px;  
-    margin: 10px 10px;
+
   width: 65%;
   right: 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
@@ -108,14 +114,13 @@ text-align: center;
     
 
 .allProjects {
-  flex-direction: column;
+
   width: 90%;
 .projectContainer {
   flex-direction: column;
   width: 100%;
   .panel {
     height: 100%;
-    text-align: center;
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -155,11 +160,27 @@ text-align: center;
   }
   @media (max-width: 450px) {
     .allProjects {
+      
       .projectContainer {
+        flex-direction: column;
         width: 100%;
-        
+        .panel {
+          p{
+            padding: 5px 0px;
+          }
+        }
         .slider {
           width: 100%;
+        }
+        .buttons {
+          .butt {
+            padding: 10px 0px;
+            p{
+              margin: 0px;
+              padding: 0px;
+              
+            }
+          }
         }
       }
     }

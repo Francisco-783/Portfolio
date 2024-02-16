@@ -22,7 +22,7 @@ const Experience = () => {
                                 <li>Diseño de la interfaz de usuario (UX/UI)</li>
                                 <li>Integración de PayPal como método de pago</li>
                                 <li>Implementación de herramientas de gestión para permitir a los profesores administrar sus cursos</li>
-                                <li>sistema de creacion y publicacion de examenes</li>
+                                <li>Sistema de creacion y publicacion de examenes</li>
                                 <li>Desarrollo e integración del backend y frontend</li>
                             </ul>
                         </div>
